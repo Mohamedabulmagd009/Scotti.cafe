@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Secotti Cafe</title>
+<meta name="description" content="كافية و مطعم يقدم القهوة المختصة و الكيك و الحلويات ">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body id="top">
+
+<!-- ===== Hero section (Nav Bar + hero card) ===== -->
+<header class="hero-section" id="hero-section">
+  <div class="nav-bar">
+    <button class="burger" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="nav-links">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><line class="l1" x1="3" y1="6" x2="21" y2="6"/><line class="l2" x1="3" y1="12" x2="21" y2="12"/><line class="l3" x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <a class="logo" href="#top"><img src="img/logo.png" alt="Scotti"></a>
+    <nav class="links" id="nav-links" aria-label="القائمة الرئيسية">
+      <a class="btn btn-ghost" href="#about-us">حكايتنا</a>
+      <a class="btn btn-ghost" href="#place">أجواء المكان</a>
+      <a class="btn btn-ghost" href="#map">زورونا</a>
+      <a class="btn btn-primary" href="#menu">تشكيلتنا</a>
+    </nav>
+  </div>
+  <div class="hero-card">
+    <div class="hero-text">
+      <h1>لحظتك الحلوة تبدأ من <b>ســـــكـوتـــــــــي</b></h1>
+      <p class="h2">قهوة محمّصة بعناية، وكيك طازج من الفرن، وجلسة هادئة في قلب جدة. تعال خذ نفَس، وخلّ الباقي علينا.</p>
+    </div>
+    <a class="btn btn-primary btn-large" href="#map">كيف توصل لنا</a>
+  </div>
+</header>
+
+
+
+<!-- ===== About Us ===== -->
+<section class="about-us" id="about-us">
+  <div class="wrap">
+    <div class="pic" data-anim="start"><img src="img/About.jpeg" alt="كوب ماتشا من سكوتي" loading="lazy"></div>
+    <div class="txt" data-stagger data-anim-children="up">
+      <h2>مو كل لحظة تحتاج مناسبة… بعضها يحتاج <span>سكوتي.</span></h2>
+      <div class="paras h2">
+        <p>فكرتنا بسيطة: اللحظة العادية تستاهل تصير شي تتذكّره. فنجان يجيك بحرارته الصح، وقطعة كيك تبتسم لها من أول لقمة.</p>
+        <p>تجي لحالك، أو مع الشلة، أو مع العيلة، وفي كل مرة تحس إنك في مكانك.</p>
+      </div>
+      <a class="btn btn-outline btn-large" href="#menu">شوف وش نقدم لك</a>
+      <div class="social">
+        <a href="#" data-link="instagram" aria-label="انستغرام"><img src="img/skill-icons_instagram.png" alt=""></a>
+        <a href="#" data-link="tiktok" aria-label="تيك توك"><img src="img/selfhst_tiktok.png" alt=""></a>
+        <a href="#" data-link="snapchat" aria-label="سناب شات"><img src="img/selfhst_snapchat.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Menu ===== -->
+<section class="menu" id="menu">
+  <div class="menu-head" data-stagger data-anim-children="up">
+    <h2 class="display">تشكيلة سكوتي</h2>
+    <p class="h1">ثلاثة أشياء نعرف نسويها صح، ونسويها كل يوم بنفس الحب.</p>
+  </div>
+  <div class="cards wrap" data-stagger>
+    <article class="card" data-anim="up">
+      <div class="ph"><img src="img/قهوة.jpg" alt="قهوة ولاتيه من سكوتي" loading="lazy"></div>
+      <div class="card-body"><div><h3 class="h2">القهوة</h3><p class="title">من إسبريسو صافي يصحّيك، إلى لاتيه ناعم يهدّي بالك. حبوب مختارة وكوب على أصوله.</p></div>
+      <a class="btn btn-primary" href="#" data-link="menu">شوف المنيو</a></div>
+    </article>
+    <article class="card" data-anim="up">
+      <div class="ph"><img src="img/مشروبات باردة.jpeg" alt="آيس لاتيه من سكوتي" loading="lazy"></div>
+      <div class="card-body"><div><h3 class="h2">المشروبات الباردة</h3><p class="title">لما يشتد حر جدة آيس لاتيه ومشروبات مثلّجة تنعشك وترد لك مزاجك.</p></div>
+      <a class="btn btn-primary" href="#" data-link="menu">شوف المنيو</a></div>
+    </article>
+    <article class="card" data-anim="up">
+      <div class="ph"><img src="img/حلويات.jpeg" alt="كيكة شوكولاتة مع آيس كريم" loading="lazy"></div>
+      <div class="card-body"><div><h3 class="h2">الكيك و الحلويات</h3><p class="title">شوكولاتة غنية وكريمة خفيفة وقطع طازجة من الفرن خلّها بجنب قهوتك وبتعرف وش أقصد.</p></div>
+      <a class="btn btn-primary" href="#" data-link="menu">شوف المنيو</a></div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== place ===== -->
+<section class="place" id="place">
+  <div class="wrap">
+    <div class="place-head" data-stagger data-anim-children="up">
+      <h2 class="display">أجواء تخليك تطوّل الجلسة</h2>
+      <p class="h1">إضاءة دافية، موسيقى هادية، ومقاعد تنسيك الوقت. كل ركن عندنا له مزاجه.</p>
+    </div>
+    <div class="gallery" data-stagger>
+      <figure class="big" data-anim="zoom"><img src="img/جلسة.jpeg" alt="جلسة قرب النافذة" loading="lazy"></figure>
+      <div class="col">
+        <figure data-anim="zoom"><img src="img/3.jpg" alt="ركن الجلسات" loading="lazy"></figure>
+        <figure data-anim="zoom"><img src="img/حلويات.jpeg" alt="كيكة شوكولاتة" loading="lazy"></figure>
+      </div>
+      <div class="col">
+        <figure data-anim="zoom"><img src="img/1.jpg" alt="طاولة وقهوة" loading="lazy"></figure>
+        <figure data-anim="zoom"><img src="img/2.jpg" alt="حلى وقهوة" loading="lazy"></figure>
+      </div>
+      <figure class="big" data-anim="zoom"><img src="img/اصدقاء.jpeg" alt="أصدقاء في سكوتي" loading="lazy"></figure>
+    </div>
+    <div class="strip" data-stagger data-anim="up">
+      <div><h3 class="h1">تبي هدوء؟</h3><p class="title">خذ لك ركن بعيد عن الضجة، مع قهوة تبقى دافية لين آخر رشفة.</p></div>
+      <div><h3 class="h1">معزومين الشلة؟</h3><p class="title">طاولات واسعة تساع ضحكتكم كلها، وحلويات للمشاركة، أو لا.وقتك قصير؟</p></div>
+      <div><h3 class="h1">وقتك قصير؟</h3><p class="title">استراحة عصر أو لقاء سريع، وطلبك يوصلك بسرعة.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== cta ===== -->
+<section class="cta" id="cta" data-stagger data-anim-children="up">
+  <h2 class="display">نسوّيها على مهلنا، وتجيك على كيفك.</h2>
+  <p class="h1">ما نلحق الموضة ولا نستعجل الطعم. نهتم بالتفاصيل الصغيرة اللي ما تنتبه لها إلا لو غابت، وهذا اللي يخليك ترجع.</p>
+</section>
+
+<!-- ===== map ===== -->
+<section class="map" id="map">
+  <div class="wrap">
+    <div class="info" data-stagger data-anim-children="up">
+      <div class="info-top">
+        <h2 class="display">لا تخلّيها على بكرة</h2>
+        <p class="h2 sub">افتح الموقع تعال دحين واطلب أول كاسه</p>
+        <div class="facts">
+          <div><p class="h2">وين نحن؟</p><p class="title">جدة المملكة العربية السعودية</p></div>
+          <div><p class="h2">أوقات الاستقبال يوميًا</p><p class="title">من الصباح حتى منتصف الليل</p></div>
+        </div>
+      </div>
+      <div class="map-btns">
+        <a class="btn btn-primary btn-large" href="#" data-link="map">زورونا</a>
+        <a class="btn btn-outline" href="#" data-link="menu">شوف المنيو</a>
+      </div>
+    </div>
+    <div class="map-pic" data-anim="end"><img src="img/map.jpg" alt="واجهة كافيه سكوتي من الداخل" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer" id="footer">
+  <div class="wrap">
+    <div class="footer-top" data-stagger data-anim-children="up">
+      <div class="footer-brand">
+        <img class="footer-logo" src="img/logo.png" alt="Scotti">
+        <div><p class="h1">سكوتي كافيه · جدة</p><p class="tagline">قهوة و كيك وجلسة تستاهل لحظتك الحلوة تبدأ من سكوتي.</p></div>
+      </div>
+      <div class="footer-cols">
+        <div><h3 class="h1">روابط سريعة</h3>
+          <div class="quick"><a class="btn" href="#about-us">حكايتنا</a><a class="btn" href="#place">أجواء المكان</a><a class="btn" href="#map">زورونا</a></div></div>
+        <div><h3 class="h1">تابعنا</h3>
+          <div class="social">
+            <a href="#" data-link="instagram" aria-label="انستغرام"><img src="img/skill-icons_instagram.png" alt=""></a>
+            <a href="#" data-link="tiktok" aria-label="تيك توك"><img src="img/selfhst_tiktok.png" alt=""></a>
+            <a href="#" data-link="snapchat" aria-label="سناب شات"><img src="img/selfhst_snapchat.png" alt=""></a></div></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>جميع الحقوق محفوظة لسكوتى كافية 2026©</span><span>صُنع بحب في جدة</span></div>
+  </div>
+</footer>
+
+</body>
+</html>
