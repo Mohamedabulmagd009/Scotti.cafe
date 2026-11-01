@@ -4,7 +4,7 @@
   --button:#655244; --line:#655244;
   --t-h1:#ebe1cf; --t-h2:#7f6a58; --t-title:#181818; --t-display:#faf8f4; --t-primary:#fafafa;
   --drop:rgba(20,16,12,.14); --inner:rgba(250,250,250,.2);
-  --ff:'IBM Plex Sans Arabic',system-ui,sans-serif;
+  --ff:'Cairo',system-ui,sans-serif;
   --fd:40px; --ld:50px; --f1:32px; --l1:42px; --f2:24px; --l2:34px; --ft:20px; --lt:30px; --pad:64px;
   --ease:cubic-bezier(.2,.7,.2,1);
 }
