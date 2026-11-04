@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تشكيلة الشوكولاتة الفاخرة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="choc.css">
+</head>
+<body>
+<main id="choc-collection" class="choc">
+  <header class="choc-hero" aria-labelledby="choc-hero-title">
+    <div class="choc-hero__text">
+      <span class="choc-hero__eyebrow reveal"><span aria-hidden="true"></span> سكوتي للشوكولاتة الفاخرة</span>
+      <h1 id="choc-hero-title" class="choc-hero__title reveal">كل قطعة<br><em>حكاية حُب</em></h1>
+      <p class="choc-hero__tag reveal">تشكيلة من الشوكولاتة الفاخرة، تُهدي لحظاتكم مذاقًا لا يُنسى.</p>
+      <a href="#choc-products" class="btn btn-primary reveal">اكتشف التشكيلة</a>
+      <ul class="choc-social choc-social--hero reveal" data-social aria-label="تواصل معنا"></ul>
+    </div>
+    <div class="choc-hero__media">
+      <img src="Image/hero section.png" alt="تشكيلة شوكولاتة سكوتي مزينة بالتوت الأحمر" fetchpriority="high">
+      <span class="choc-hero__caption">صُنعت لتُهدى <span aria-hidden="true">✦</span></span>
+    </div>
+  </header>
+
+  <section id="choc-products" class="choc-section" aria-labelledby="choc-h2">
+    <div class="choc-section__head">
+      <h2 id="choc-h2">إبداعات من الشوكولاتة</h2>
+    </div>
+    <div class="choc-grid" id="choc-grid"></div>
+  </section>
+
+  <footer class="choc-footer">
+    <h3>ابقَ على تواصل</h3>
+    <ul class="choc-social" data-social aria-label="حساباتنا"></ul>
+  </footer>
+</main>
+<a class="choc-fab" id="choc-fab" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"></a>
+<script src="config.js"></script>
+<script src="choc.js"></script>
+</body>
+</html>
