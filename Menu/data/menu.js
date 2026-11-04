@@ -11,8 +11,8 @@ window.MENU_DATA = {
   },
   {
    "id": "iced",
-   "title": "Iced <em>Coffee</em>",
-   "nav": "Iced Coffee",
+   "title": "Ice <em>Coffee</em>",
+   "nav": "Ice Coffee",
    "ar": "القهوة الباردة",
    "d1": "Refreshing coffee with a cool twist",
    "d2": "انتعاش القهوة بلمسة باردة"
